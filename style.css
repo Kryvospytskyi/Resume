@@ -1,25 +1,47 @@
-#logo {
-    width: 220.5px;
-    height: 71px;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;  
+    flex-direction: row;  
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.logo_conteiner {
+    
     left: 0;
     top: 0;
     padding: 4px;
     box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    
+}
+
+#logo {
+    display: block;
 }
 
 .navigate_menu {
     box-sizing: border-box;
-    text-align: right;
-    width: 700px;
-
+    font-weight: 400;
+    display: flex;
+    width: 655px;
+    align-self: center;
 }
 
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 300px; 
     overflow: hidden;
+    background-color: lavender;
+    text-align: center;
 }
 
 .menu a {
@@ -28,17 +50,20 @@
     color: #5757a0;
     display: inline-block;
     padding: 10px 20px;
-    background-color: lavender;
     border-bottom: 5px solid #5757a0;
-    height: 30px;
-    line-height: 30px;
+    
+    
     font-size: 20px;
+    
+    
 }
 
 .menu li {
     display: inline;
     float: left;
+   text-align: center;
 }
+
 
 
 #profile_img {
