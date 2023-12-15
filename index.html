@@ -11,8 +11,8 @@
     <body>
         <header>
             <div id="container">
-                <div class="logo_conteiner">
-                    <img src="logo.png" id="logo" width="220.5" height="71">
+                <div class="logo_container">
+                    <img src="logo.png" id="logo">
                 </div>
                 <div class="navigate_menu">
                 <nav>
@@ -47,9 +47,8 @@
         </section>
 
         <section id="skills">
-            <div>
-                <h2>Skills</h2>
-                <ul class="text">
+            <h2>Skills</h2>    
+                <ul class="un_list">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Java Script</li>
@@ -60,7 +59,6 @@
                     <li>Visual Studio Code</li>
                     <li>Sublime Text</li>
                 </ul>
-            </div>
         </section>
 
         <section id="education">
@@ -83,21 +81,25 @@
                 </p>
                 
             </div>
-            <img src="1.png" width="601.3" height="287.3">
-            <img src="2.png" width="601.3" height="287.3">
+            <img class="img_exp" src="1.png">
+            <img class="img_exp" src="2.png">
         </div>
         </section>
 
-        <section id="contacts">
-            <div >
-                <h2>Contacts:</h2>
-                <a href="https://t.me/light_years_from_the_skill" style="text">Telegram</a>
-                <a href="viber://chat?number=+380968602261" style="text">Viber</a>
-            </div>
+        <section id="contacts" class="design">
+            
+            <h3>Contacts:</h3>
+                    <div id="telegram"> 
+                        <img src="./telegram_icon.png" class="contacts_link"><a href="https://t.me/light_years_from_the_skill">Telegram</a>
+                    </div>
+                    <br>
+                    <div id="viber">
+                        <img src="./viber_icon.png" class="contacts_link"> <a href="viber://chat?number=+380968602261">Viber</a>
+                    </div>
         </section>
 
         <footer>
-            <p id="copy">Kryvospytskyi Yevhen &copy;</p>
+            <p class="design">Kryvospytskyi Yevhen &copy;</p>
         </footer>
     </body>
 </html>
