@@ -12,7 +12,7 @@ header {
     
 }
 
-.logo_conteiner {
+.logo_container {
     
     left: 0;
     top: 0;
@@ -25,6 +25,8 @@ header {
 
 #logo {
     display: block;
+    width: 220.5px;
+    height: 71px;
 }
 
 .navigate_menu {
@@ -93,10 +95,53 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
+.text p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
 h2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+}
+.un_list {
+font-family: 'Roboto', sans-serif;
+margin-top: 16px;
+margin-bottom: 16px;
+padding-left: 40px;
+font-size: 20px;
+line-height: 1.5;
+list-style-type: none;
+}
+
+.img_exp {
+    width: 601.3px;
+    height: 287.3px;
+}
+
+.design{
+    font-family: 'Itim', cursive;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+#telegram {
+    display: flex;  
+    align-items: center
+}
+
+#viber {
+    display: flex;  
+    align-items: center
+}
+
+.contacts_link {
+    margin-right: 10px;
 }
 
 footer {
