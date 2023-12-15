@@ -82,7 +82,7 @@ header {
 .text {
     box-sizing: border-box;
     display: block;
-    width: auto;
+    width: 1000px;;
     margin-top: auto;
     margin-bottom: 35px;
     margin-left: auto;
@@ -98,9 +98,23 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
-#footer {
+
+footer {
+    display:block;
+}
+
+#copy {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.footer_container {
     box-sizing: border-box;
     display: block;
     width: auto;
+    text-align: left;
 }
+
+
     
